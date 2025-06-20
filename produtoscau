@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catálogo - Achadinhos do Nescau</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #444, #333, #222, #111, #000);
+      color: #fff;
+      text-align: center;
+    }.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  margin: 30px 0;
+  font-size: 24px;
+  color: #fff;
+}
+
+.product-item {
+  display: flex;
+  align-items: center;
+  background: #000;
+  border-radius: 12px;
+  margin: 15px 0;
+  text-decoration: none;
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.08);
+  transition: background 0.3s;
+}
+
+.product-item:hover {
+  background: #111;
+}
+
+.product-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin: 10px;
+}
+
+.product-name {
+  font-size: 16px;
+  text-align: left;
+  padding-right: 10px;
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🛍️ Achadinhos do Nescau</h1><a href="https://shopee.com.br/produto1" class="product-item">
+  <img src="img1.jpg" alt="Produto 1" class="product-img" />
+  <div class="product-name">Produto 1 - Nome legal</div>
+</a>
+
+<a href="https://shopee.com.br/produto2" class="product-item">
+  <img src="img2.jpg" alt="Produto 2" class="product-img" />
+  <div class="product-name">Produto 2 - Estilo brabo</div>
+</a>
+
+<a href="https://shopee.com.br/produto3" class="product-item">
+  <img src="img3.jpg" alt="Produto 3" class="product-img" />
+  <div class="product-name">Produto 3 - Preço baixo</div>
+</a>
+
+<a href="https://shopee.com.br/produto4" class="product-item">
+  <img src="img4.jpg" alt="Produto 4" class="product-img" />
+  <div class="product-name">Produto 4 - Qualidade top</div>
+</a>
+
+<a href="https://shopee.com.br/produto5" class="product-item">
+  <img src="img5.jpg" alt="Produto 5" class="product-img" />
+  <div class="product-name">Produto 5 - Melhor avaliado</div>
+</a>
+
+  </div>
+</body>
+</html>
